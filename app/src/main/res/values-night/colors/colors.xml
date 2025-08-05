@@ -9,7 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bottom_nav_colors">#757575</color>
 
-    <color name="primary_color">#FDFDFD</color> <!-- Light purple for light mode -->
-    <color name="primary_variant">#FDFDFD</color>
-    <color name="on_primary">#000000</color>
+    <color name="primary_color">#BB86FC</color> <!-- Light purple for toolbar and bottom navigation -->
+    <color name="primary_variant">#3700B3</color>
+    <color name="on_primary">#FFFFFF</color>
 </resources>

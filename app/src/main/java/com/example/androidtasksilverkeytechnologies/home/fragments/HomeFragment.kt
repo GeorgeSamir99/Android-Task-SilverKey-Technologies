@@ -33,7 +33,9 @@ class HomeFragment : Fragment() {
         return listOf(
             NewsItem("The rise of global tech", "3 days ago", "From AI breakthroughs to sustainable innovation...", R.drawable.test_image),
             NewsItem("The rise of global tech", "3 days ago", "From AI breakthroughs to sustainable innovation...", R.drawable.test_image),
-            // Add more items as needed
+            NewsItem("The rise of global tech", "3 days ago", "From AI breakthroughs to sustainable innovation...", R.drawable.test_image),
+            NewsItem("The rise of global tech", "3 days ago", "From AI breakthroughs to sustainable innovation...", R.drawable.test_image),NewsItem("The rise of global tech", "3 days ago", "From AI breakthroughs to sustainable innovation...", R.drawable.test_image),
+            NewsItem("The rise of global tech", "3 days ago", "From AI breakthroughs to sustainable innovation...", R.drawable.test_image),
         )
     }
 
