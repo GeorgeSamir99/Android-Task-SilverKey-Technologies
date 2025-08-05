@@ -17,9 +17,9 @@ import com.example.androidtasksilverkeytechnologies.home.fragments.ProfileFragme
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
-    @SuppressLint("SuspiciousIndentation")
+    private lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
-     lateinit var binding : ActivityMainBinding
+
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -28,14 +28,13 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = ""
         supportActionBar?.setDisplayHomeAsUpEnabled(false)
 
+        // Optional: Handle window insets for system bars
         ViewCompat.setOnApplyWindowInsetsListener(binding.root) { view, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             view.setPadding(0, systemBars.top, 0, 0) // Adjust padding if needed
             insets
         }
-
         showFragment(HomeFragment())
-
         binding.bottomNav.setOnNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.nav_home -> {
@@ -56,6 +55,7 @@ class MainActivity : AppCompatActivity() {
     private fun showFragment(fragment: Fragment){
         supportFragmentManager.beginTransaction()
             .replace(R.id.News_fragment_container,fragment)
+
             .commit()
     }
 

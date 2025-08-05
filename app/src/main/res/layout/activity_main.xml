@@ -57,14 +57,14 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <!-- Fragment Container -->
+
     <FrameLayout
         android:id="@+id/News_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-    <!-- Bottom Navigation -->
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
         android:layout_width="match_parent"

@@ -38,9 +38,11 @@ android {
 }
 
 dependencies {
-
-    implementation ("de.hdodenhof:circleimageview:3.1.0")
-    implementation ("androidx.appcompat:appcompat:1.6.1")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation (libs.converter.gson)
+    implementation(libs.retrofit)
+    implementation (libs.circleimageview)
+    implementation (libs.androidx.appcompat.v161)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
