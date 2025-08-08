@@ -40,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="3 days ago"
-            android:textSize="12sp"
+            android:textSize="18sp"
             android:textColor="#757575"
             android:layout_marginTop="4dp" />
 

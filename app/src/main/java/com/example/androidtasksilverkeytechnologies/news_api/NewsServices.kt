@@ -8,8 +8,8 @@ import retrofit2.http.Query
 interface NewsServices {
 
     @GET("v2/top-headlines")
-    fun getTopHeaLines(
+    suspend fun getTopHeaLines(
         @Query("sources") source: String = ApiManger.source,
         @Query("apiKey") apiKey: String = ApiManger.API_KEY
-    ):Call<NewsResponse>
+    ):NewsResponse
 }

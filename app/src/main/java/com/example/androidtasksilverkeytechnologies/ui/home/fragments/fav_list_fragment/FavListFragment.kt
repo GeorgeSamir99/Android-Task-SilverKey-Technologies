@@ -1,4 +1,4 @@
-package com.example.androidtasksilverkeytechnologies.home.fragments
+package com.example.androidtasksilverkeytechnologies.ui.home.fragments.fav_list_fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.androidtasksilverkeytechnologies.databinding.FragmentFavListBinding
-import com.example.androidtasksilverkeytechnologies.databinding.FragmentHomeBinding
 
 class FavListFragment : Fragment() {
     lateinit var binding: FragmentFavListBinding

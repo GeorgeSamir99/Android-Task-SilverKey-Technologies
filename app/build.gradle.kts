@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+
+    alias(libs.plugins.kotlin.parcelize)
+
 }
 
 android {
@@ -38,7 +41,12 @@ android {
 }
 
 dependencies {
-    implementation ("com.github.bumptech.glide:glide:4.16.0")
+
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9")
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
+    implementation(libs.androidx.lifecycle.livedata)
+    implementation(libs.androidx.lifecycle.viewmodel)
+    implementation (libs.glide)
     implementation (libs.converter.gson)
     implementation(libs.retrofit)
     implementation (libs.circleimageview)

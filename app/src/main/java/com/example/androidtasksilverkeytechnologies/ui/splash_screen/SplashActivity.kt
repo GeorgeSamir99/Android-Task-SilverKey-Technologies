@@ -1,4 +1,4 @@
-package com.example.androidtasksilverkeytechnologies.splash_screen
+package com.example.androidtasksilverkeytechnologies.ui.splash_screen
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.androidtasksilverkeytechnologies.R
-import com.example.androidtasksilverkeytechnologies.home.MainActivity
+import com.example.androidtasksilverkeytechnologies.ui.home.MainActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,7 +27,8 @@ class SplashActivity : AppCompatActivity() {
 
     }
     private fun openMainActivity(){
-        val intent = Intent(this,MainActivity::class.java)
+        val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
+        finish()
     }
 }

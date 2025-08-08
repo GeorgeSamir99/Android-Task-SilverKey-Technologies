@@ -1,11 +1,10 @@
-package com.example.androidtasksilverkeytechnologies.home.fragments
+package com.example.androidtasksilverkeytechnologies.ui.home.fragments.profile_fregment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.androidtasksilverkeytechnologies.databinding.FragmentHomeBinding
 import com.example.androidtasksilverkeytechnologies.databinding.FragmentProfileBinding
 
 class ProfileFragment : Fragment() {
@@ -21,6 +20,8 @@ class ProfileFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+
     }
 
 }
