@@ -40,6 +40,7 @@ values/: XML files for colors, strings, and styles.
 **************************************************************************************************************************
 [APK URL]
 The compiled application package (APK) can be downloaded directly from the following link:
+
 MediaFire APK Link : https://www.mediafire.com/folder/hm3slv7o64j6d/NewsApp-SilverKey-Technologies-Task
 
 Goolge Drive Link :  https://drive.google.com/drive/folders/1UT6Q8N4OINSC0x_GNLHG_0rHAM2aLa4E?usp=drive_link
