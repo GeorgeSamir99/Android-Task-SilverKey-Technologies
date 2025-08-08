@@ -22,7 +22,7 @@ home/: Holds the components for the main screen.
 
 adapters/: Includes ArticlesAdapter, used for populating the RecyclerView with news articles.
 
-fragments/: Contains various Fragments such as HomeFragment, FavListFragment, and ProfileFragment.
+fragments/: Contains various Fragments such as HomeFragment, FavListFragment, and ProfileFragment,NewsDeatailsScreen
 
 MainActivity.kt: The main activity of the application.
 
@@ -38,5 +38,6 @@ menu/: XML files for menus, like bottom_nav_menu.xml for the bottom navigation b
 values/: XML files for colors, strings, and styles.
 
 **************************************************************************************************************************
-APK URL
+[APK URL]
 The compiled application package (APK) can be downloaded directly from the following link:
+https://drive.google.com/drive/folders/1UT6Q8N4OINSC0x_GNLHG_0rHAM2aLa4E?usp=drive_link
